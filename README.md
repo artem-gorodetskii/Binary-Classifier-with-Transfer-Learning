@@ -12,12 +12,12 @@ Pretrained on ImageNet dataset Xception model was used as a basis for this binar
 In order to make the model more generalized, a data augmentation technique was used. Below you can see examples of images with augmentation:
 ![img1](images/images_examples.png)
 
-During the training process the following learning rate schedule was used(learning rate vs. epoch):
+During the training process the following learning rate schedule was used (learning rate vs. epoch):
 <p align="center">
   <img src="images/lr_vs_epoch.png" width="300" />
 </p>
 
-The following figure display 'loss' and 'accuracy' curnes during training process:
+The following figure display 'loss' and 'accuracy' curves during training process:
 <p align="center">
   <img src="images/training_curves.png" width="400" />
 </p>
