@@ -1,4 +1,4 @@
-# Binary-Classifier-with-Transfer-Learning
+# Binary Classifier with Transfer Learning
 This  project represents TensorFlow implimentation of CNN binary classifier using transfer learning technique. 
 The model allows to distingwish images containing Saint George with accuracy 94.0%. It was trained on Tesla K80 GPU (Kaggle).
 
