@@ -8,11 +8,11 @@ The model allows to distingwish images containing Saint George with accuracy 94.
 * 'pyproject.toml' file contains all required project dependencies.
 
 ## Model architecture and training process 
-Pretrained on ImageNet dataset Xception model was used as a basis for this binary classifier. The top layer was removed and instead simple Dense layer with one neuron and sigmoid activation was used.
+Pretrained on ImageNet dataset Xception model was used as a basis for this binary classifier. The top layer was removed and a simple Dense layer with one neuron and sigmoid activation was used instead.
 In order to make the model more generalized, a data augmentation technique was used. Below you can see examples of images with augmentation:
 ![img1](images/images_examples.png)
 
-During the training process was used the following learning rate schedule (learning rate vs. epoch):
+During the training process the following learning rate schedule was used(learning rate vs. epoch):
 <p align="center">
   <img src="images/lr_vs_epoch.png" width="300" />
 </p>
