@@ -11,10 +11,10 @@ In order to make the model more generalized, a data augmentation technique was u
 ![img1](images/images_examples.png)
 
 During the training process was used the following learning rate schedule (learning rate vs. epoch):
-!(images/lr_vs_epoch.png)
+![img2](images/lr_vs_epoch.png)
 
 The following figure display 'loss' and 'accuracy' curnes during training process:
-[img3](images/training_curves.png)
+![img3](images/training_curves.png)
 
 ## Results
 The model scores for accuracy, precision and recall are 94.0, 94.0, and 92.4, respectively.
