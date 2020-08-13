@@ -11,7 +11,7 @@ In order to make the model more generalized, a data augmentation technique was u
 ![img1](images/images_examples.png)
 
 During the training process was used the following learning rate schedule (learning rate vs. epoch):
-[img2](images/lr_vs_epoch.png)
+!(images/lr_vs_epoch.png)
 
 The following figure display 'loss' and 'accuracy' curnes during training process:
 [img3](images/training_curves.png)
