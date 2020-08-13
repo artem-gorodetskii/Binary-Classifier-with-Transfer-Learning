@@ -9,8 +9,10 @@ The model allows to distingwish images containing Saint George with accuracy 94.
 Pretrained on ImageNet dataset Xception model was used as a basis for this binary classifier. The top layer was removed and instead simple Dense layer with one neuron and sigmoid activation was used.
 In order to make the model more generalized, a data augmentation technique was used. Below you can see examples of images with augmentation:
 ![GitHub Logo](images/images_examples.png)
+
 During the training process was used the following learning rate schedule (learning rate vs. epoch):
 [GitHub Logo](images/lr_vs_epoch.png)
+
 The following figure display 'loss' and 'accuracy' curnes during training process:
 [GitHub Logo](images/training_curves.png)
 ## Results
