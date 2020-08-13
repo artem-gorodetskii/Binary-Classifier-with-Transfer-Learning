@@ -16,7 +16,9 @@ During the training process was used the following learning rate schedule (learn
 </p>
 
 The following figure display 'loss' and 'accuracy' curnes during training process:
-<img src="images/training_curves.png" width="400" />
+<p align="center">
+  <img src="images/training_curves.png" width="400" />
+</p>
 
 ## Results
 The model scores for accuracy, precision and recall are 94.0, 94.0, and 92.4, respectively.
